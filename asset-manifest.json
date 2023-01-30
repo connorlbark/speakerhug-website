@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/speakerhug/static/css/main.9e612857.css",
+    "main.js": "/speakerhug/static/js/main.7be6557c.js",
+    "static/js/787.aa6c3f95.chunk.js": "/speakerhug/static/js/787.aa6c3f95.chunk.js",
+    "static/media/homepage_angel.PNG": "/speakerhug/static/media/homepage_angel.8ce884b53fdfd24dde68.PNG",
+    "static/media/text.png": "/speakerhug/static/media/text.11264595f43632e6925d.png",
+    "index.html": "/speakerhug/index.html",
+    "main.9e612857.css.map": "/speakerhug/static/css/main.9e612857.css.map",
+    "main.7be6557c.js.map": "/speakerhug/static/js/main.7be6557c.js.map",
+    "787.aa6c3f95.chunk.js.map": "/speakerhug/static/js/787.aa6c3f95.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9e612857.css",
+    "static/js/main.7be6557c.js"
+  ]
+}
