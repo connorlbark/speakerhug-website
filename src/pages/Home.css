@@ -47,39 +47,45 @@
   }
 }
 
-.link1 {
+.link2 {
   position: absolute;
   top: 30%;
   left: 20%;
 }
 
-.link2 {
+.link3 {
   position: absolute;
   top: 40%;
   left: 30%;
 }
 
 
-.link3 {
+.link4 {
   position: absolute;
   top: 50%;
   left: 20%;
 }
 
-.link4 {
+.link5 {
   position: absolute;
   top: 60%;
   left: 30%;
 }
 
-.link5 {
+.link6 {
   position: absolute;
   top: 70%;
   left: 40%;
 }
 
-.link6 {
+.link1 {
   position: absolute;
   top: 20%;
   left: 10%;
+}
+
+.link7 {
+  position: absolute;
+  top: 80%;
+  left: 20%;
 }
