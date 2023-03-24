@@ -5,9 +5,6 @@
 }
 
 .bio {
-  position: absolute;
-  top: 28%;
-  left: 40%;
   font-size: 22px;
   max-width: 600px;
   min-width: 100px;
