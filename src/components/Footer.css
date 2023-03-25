@@ -1,0 +1,26 @@
+
+.footer {
+  position: fixed;
+  background-color: #000;
+  height: auto;
+  width: 100%;
+  bottom: 0;
+  padding: 8px;
+  padding-bottom: 12pt;
+  text-align: center;
+}
+
+.iconimage {
+  filter: invert();
+  opacity: 0.9;
+  height: 30px;
+}
+
+.sociallink {
+  padding: 2px;
+  margin: 5px;
+  padding-top: 20px;
+}
+
+.iconrow {
+}
