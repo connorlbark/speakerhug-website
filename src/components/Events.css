@@ -1,0 +1,34 @@
+.event {
+  margin-bottom: 10pt;
+}
+
+.main-info {
+  display: inline-block;
+  font-size: x-large;
+}
+
+.support-info {
+  padding: 0;
+  font-size: large;
+  height: 30px;
+  margin: auto;
+}
+
+.supporttext {
+  display: inline-block;
+  margin: auto;
+  padding: 5px;
+  padding-right: 60px;
+  margin-left: 20px;
+}
+
+.supporttext2 {
+  display: inline-block;
+  margin: auto;
+  padding: 5px;
+  margin-left: 0;text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.eventlist {
+}

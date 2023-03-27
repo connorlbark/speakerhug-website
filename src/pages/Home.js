@@ -36,9 +36,9 @@ export const Home = (props) => {
         <MatrixText text="music " length={width/18} speed={6} className="link2" href="https://open.spotify.com/artist/79bwkhHh6qKP7dehlCdYJP?si=08ajqk8zTAeJjH8bExk-5g"></MatrixText>
         {/* <MatrixText text="art " length={width/18} speed={5} className="link3"></MatrixText> */}
         <Link to="/photos"><MatrixText text="photos " length={width/18} speed={5} className="link3"></MatrixText></Link>
-        <MatrixText text="events " length={width/18} speed={4} className="link4"></MatrixText>
+        <Link to="/shows"><MatrixText text="shows " length={width/18} speed={4} className="link4"></MatrixText></Link>
         <MatrixText text="videos " length={width/18} speed={3} className="link5" href="https://www.youtube.com/@speakerhug"></MatrixText>
-        <MatrixText text="contact " length={width/18} speed={2} className="link6" href="mailto:speakerhug@gmail.com"></MatrixText>
+        <Link to="/contact"><MatrixText text="contact " length={width/18} speed={2} className="link6"></MatrixText></Link>
       </div>
     </div>
   )

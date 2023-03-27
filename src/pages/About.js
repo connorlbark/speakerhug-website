@@ -1,24 +1,15 @@
 import React, { useState, useEffect } from "react";
-import { Link } from "react-router-dom";
-
-import Menu from "../components/Menu";
-import { Logos } from '../components/Logos';
 
 import '../index.css';
 import './About.css';
 import '../components/MatrixText';
-import { MatrixText } from "../components/MatrixText";
-import {Footer} from "../components/Footer";
+import BasicPage from "../components/BasicPage";
 
 export const About = (props) => {
 
   return (
-    <div className="page-container">
+    <BasicPage>
       <div>
-        <Logos />
-      </div>
-      <Menu>
-        <div style={{}}>
           <p className="bio">
             Speakerhug is guitarists/vocalists Connor and Lex, bassist Gabe, and drummer Brendan. 
             Quickly rising within the Boston DIY music scene due to their energetic live shows, 
@@ -31,10 +22,8 @@ export const About = (props) => {
             Hot off the success of their first single ‘glassheart’, 
             Speakerhug is currently working on their debut EP, ‘scriptures,’ set to release in April of 2023.
           </p>
-        </div>
-      </Menu>  
-      <Footer/>
-    </div>
+      </div>
+    </BasicPage>
   )
 }
 

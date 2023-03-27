@@ -15,7 +15,7 @@ export const Menu = (props) => {
           <li><Link to="/about"><MatrixText text="about " length={6} speed={7} ></MatrixText></Link></li>
           <li><Link to="/music"><MatrixText text="music " length={6} speed={6}></MatrixText></Link></li>
           <li><Link to="/photos"><MatrixText text="photos " length={7} speed={5}></MatrixText></Link></li>
-          <li><Link to="/events"><MatrixText text="events " length={7} speed={4}></MatrixText></Link></li>
+          <li><Link to="/shows"><MatrixText text="shows " length={6} speed={4}></MatrixText></Link></li>
           <li><Link to="/videos"><MatrixText text="videos " length={7} speed={3}></MatrixText></Link></li>
           <li><Link to="/contact"><MatrixText text="contact " length={8} speed={2}></MatrixText></Link></li>
         </ul>
