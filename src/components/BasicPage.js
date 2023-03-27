@@ -18,7 +18,6 @@ export const BasicPage = (props) => {
           {props.children}
         </div>
       </Menu>  
-      <Footer/>
     </div>
   )
 }
