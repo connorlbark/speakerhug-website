@@ -37,7 +37,7 @@ export const Home = (props) => {
         {/* <MatrixText text="art " length={width/18} speed={5} className="link3"></MatrixText> */}
         <Link to="/photos"><MatrixText text="photos " length={width/18} speed={5} className="link3"></MatrixText></Link>
         <Link to="/shows"><MatrixText text="shows " length={width/18} speed={4} className="link4"></MatrixText></Link>
-        <MatrixText text="videos " length={width/18} speed={3} className="link5" href="https://www.youtube.com/@speakerhug"></MatrixText>
+        <Link to="/videos"><MatrixText text="videos " length={width/18} speed={3} className="link5"></MatrixText></Link>
         <Link to="/contact"><MatrixText text="contact " length={width/18} speed={2} className="link6"></MatrixText></Link>
       </div>
     </div>

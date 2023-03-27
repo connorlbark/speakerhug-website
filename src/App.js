@@ -8,6 +8,7 @@ import { Photos } from "./pages/Photos";
 import Contact from "./pages/Contact";
 import Shows from "./pages/Shows";
 import Music from "./pages/Music";
+import Videos from "./pages/Videos"
 
 export const App = (props) => {
 
@@ -21,6 +22,7 @@ export const App = (props) => {
           <Route path='/contact' element={<Contact />} />
           <Route path='/shows' element={<Shows />} />
           <Route path='/music' element={<Music />} />
+          <Route path='/videos' element={<Videos />} />
           <Route path="*" element={<NoPage />} />
         </Route>
       </Routes>
