@@ -33,7 +33,7 @@ export const Home = (props) => {
       <Logos />
       <div style={{}}>
         <Link to="/about"><MatrixText text="about " length={width/18} speed={7} className="link1" ></MatrixText></Link>
-        <MatrixText text="music " length={width/18} speed={6} className="link2" href="https://open.spotify.com/artist/79bwkhHh6qKP7dehlCdYJP?si=08ajqk8zTAeJjH8bExk-5g"></MatrixText>
+        <Link to="/music"><MatrixText text="music " length={width/18} speed={6} className="link2"></MatrixText></Link>
         {/* <MatrixText text="art " length={width/18} speed={5} className="link3"></MatrixText> */}
         <Link to="/photos"><MatrixText text="photos " length={width/18} speed={5} className="link3"></MatrixText></Link>
         <Link to="/shows"><MatrixText text="shows " length={width/18} speed={4} className="link4"></MatrixText></Link>

@@ -6,17 +6,18 @@ import '../components/Events.css';
 import BasicPage from "../components/BasicPage";
 import EventDescription from "../components/EventDescription";
 
+const show_json = require('../shows.json');
+
 export const Shows = (props) => {
 
   return (
     <BasicPage>
       <div class="eventlist">
-        <EventDescription date="March 25th" venue="The Tourist Trap" 
-            bands="Cilantro, Speakerhug, Videodaze" ticketlink="example_tix"/>
-        <EventDescription date="April 2nd" venue="State Park"/>
-        <EventDescription date="April 20th" venue="Boston College"/>
-        <EventDescription date="April 21st" venue="Exit Galleries"/>
-        <EventDescription date="April 27th" venue="Union Tavern"/>
+        {show_json.map( (show) => {
+          return (
+            <EventDescription date={show.date} venue={show.venue} bands={show.bands} ticketlink={show.ticketlink}/>
+          )
+        })}
       </div>
     </BasicPage>
   )

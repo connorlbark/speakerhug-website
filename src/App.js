@@ -7,6 +7,7 @@ import NoPage from "./pages/NoPage";
 import { Photos } from "./pages/Photos";
 import Contact from "./pages/Contact";
 import Shows from "./pages/Shows";
+import Music from "./pages/Music";
 
 export const App = (props) => {
 
@@ -18,7 +19,8 @@ export const App = (props) => {
           <Route path='/about' element={<About />} />
           <Route path='/photos' element={<Photos />} />
           <Route path='/contact' element={<Contact />} />
-          <Route path='/shows' element={<Shows/>} />
+          <Route path='/shows' element={<Shows />} />
+          <Route path='/music' element={<Music />} />
           <Route path="*" element={<NoPage />} />
         </Route>
       </Routes>
