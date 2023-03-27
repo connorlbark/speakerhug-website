@@ -4,7 +4,6 @@ import Menu from "../components/Menu";
 import { Logos } from '../components/Logos';
 
 import '../index.css';
-import {Footer} from "../components/Footer";
 
 export const BasicPage = (props) => {
 

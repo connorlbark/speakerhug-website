@@ -30,7 +30,8 @@ export const Home = (props) => {
 
   return (
     <div className="home-page-container">
-      <Logos />
+      <img src={require('../images/logos/text.png')} className="bright-logo glitch" alt="speakerhug logo"/>
+      <img src={require('../images/logos/homepage_angel.PNG')} className="angel" alt=""/>
       <div style={{}}>
         <Link to="/about"><MatrixText text="about " length={width/18} speed={7} className="link1" ></MatrixText></Link>
         <Link to="/music"><MatrixText text="music " length={width/18} speed={6} className="link2"></MatrixText></Link>

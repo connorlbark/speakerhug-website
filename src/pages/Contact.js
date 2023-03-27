@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 
 import '../index.css';
 import './About.css';
+import '../components/Footer.css'
 import {MatrixText} from "../components/MatrixText";
 
 import spotify from "../images/icons/Spotify.svg";
