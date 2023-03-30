@@ -83,6 +83,15 @@ a {
 
 }
 
+.menu-logo {
+  position: absolute;
+  top: 0;
+  height: 5vh;
+  width: auto;
+  z-index: 100;
+  opacity: 0.8;
+}
+
 .menu_sidebar {
   position: fixed;
   top: 20%;

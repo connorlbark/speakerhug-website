@@ -9,6 +9,12 @@ export const Menu = (props) => {
   return (
     <div>
       <div class={"menu_sidebar"}>
+        <div>
+          <img src={require('../images/logos/text.png')} className="menu-logo" alt="speakerhug logo"/>
+        </div>
+        <div style={{height: 80}}>
+
+        </div>
         {/* This is the sidebar div  */}
         <ul>
         <li><Link to="/"><MatrixText text="home " length={5} speed={7} ></MatrixText></Link></li>

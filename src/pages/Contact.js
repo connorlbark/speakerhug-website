@@ -23,19 +23,8 @@ export const Contact = (props) => {
           <div style={{ height: 80 }}>
 
           </div>
-          <div class="iconrow">
-          <a href="https://www.instagram.com/speakerhug/" class="sociallink">
-            <img src={instagram} class="iconimage"></img>
-          </a>
-          <a href="https://open.spotify.com/artist/79bwkhHh6qKP7dehlCdYJP?si=NCWL-rxtQM21z7_Qeo0OSQ" class="sociallink">
-            <img src={spotify} class="iconimage"></img>
-          </a>
-          <a href="https://www.youtube.com/@speakerhug" class="sociallink">
-            <img src={youtube} class="iconimage"></img>
-          </a>
-          <a href="https://www.tiktok.com/@speakerhug" class="sociallink">
-            <img src={tiktok} class="iconimage"></img>
-          </a>
+          <div>
+            <p>Instagram: </p><a href="instagram.com/speakerhug">@speakerhug</a>
           </div>
         </div>
       </BasicPage>

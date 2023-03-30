@@ -9,9 +9,6 @@ export const BasicPage = (props) => {
 
   return (
     <div className="page-container">
-      <div>
-        <Logos />
-      </div>
       <Menu>
         <div style={{}}>
           {props.children}
