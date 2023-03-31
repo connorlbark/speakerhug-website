@@ -1,0 +1,10 @@
+.yt-embed {
+  margin: 14px;
+  height: 300px;
+  width: 45%;
+}
+
+#video-embeds {
+  display: flex;
+  flex-wrap: wrap;
+}

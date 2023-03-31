@@ -1,0 +1,11 @@
+.backbutton {
+  position: absolute;
+  top: 20%;
+  left: 10%;
+}
+
+.bio {
+  font-size: 22px;
+  max-width: 600px;
+  min-width: 100px;
+}
