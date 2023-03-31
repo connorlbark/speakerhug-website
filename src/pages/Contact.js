@@ -20,7 +20,7 @@ export const Contact = (props) => {
 
           </div>
           <div>
-            <p>Instagram: </p><a href="instagram.com/speakerhug">@speakerhug</a>
+            <p>Instagram: </p><a href="https://www.instagram.com/speakerhug">@speakerhug</a>
           </div>
         </div>
       </BasicPage>
