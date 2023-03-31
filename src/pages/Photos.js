@@ -11,6 +11,16 @@ import connorlex from "../images/press/Connor and Lex.jpg"
 import scriptures from "../images/press/Scriptures Cover.png"
 import BasicPage from "../components/BasicPage";
 
+function Instagram(props) {
+  if (props.handle != undefined) {
+    const full_link = "https://www.instagram.com/" + props.handle + "/"
+    const full_handle = "@" + props.handle
+
+    return (
+      <a href={full_link}>{full_handle}</a>
+    )
+  }
+}
 
 export const Photos = (props) => {
 
@@ -18,13 +28,20 @@ export const Photos = (props) => {
     <BasicPage>
       <div class="photogallery">
         <div className="photocol">
-          <img src={fullband} className="singlephoto"/>
+          <div>
+            <img src={fullband} className="singlephoto"/>
+            <Instagram handle="woahitso"></Instagram>
+          </div>
           <img src={brendan} className="singlephoto"></img>
+          <Instagram handle="woahitso"></Instagram>
           <img src={connorlex} className="singlephoto"></img>
+          <Instagram handle="woahitso"></Instagram>
         </div>
         <div class="photocol">
           <img src={connorscream} className="singlephoto"></img>
+          <Instagram handle="woahitso"></Instagram>
           <img src={fullbandoutside} className="singlephoto"></img>
+          <Instagram handle="madisonmurillo"></Instagram>
           <img src={scriptures} className="singlephoto"></img>
         </div>
       </div>

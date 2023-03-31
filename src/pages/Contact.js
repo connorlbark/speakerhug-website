@@ -5,10 +5,6 @@ import './About.css';
 import '../components/Footer.css'
 import {MatrixText} from "../components/MatrixText";
 
-import spotify from "../images/icons/Spotify.svg";
-import youtube from "../images/icons/youtube.svg";
-import tiktok from "../images/icons/Tik Tok.svg";
-import instagram from "../images/icons/Instagram.svg";
 import BasicPage from "../components/BasicPage";
 
 export const Contact = (props) => {
